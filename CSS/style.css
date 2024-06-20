@@ -10,49 +10,8 @@ body {
   color: #333;
 }
 
-header {
-  background-color: #fff;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid #ccc;
-}
 
-header h1 a {
-  text-decoration: none;
-  color: #4CAF50;
-}
 
-header .search-bar{
-  position: relative;
-  right: 500px;
-}
-
-header .search-bar input {
-  padding: 10px;
-  border: 1px solid #ccccccab;
-  border-radius: 50px;
-  width: 400px;
-}
-
-header .search-bar button {
-  position: absolute;
-  right: 5px; 
-  padding: 10px;
-  cursor: pointer;
-  background-color: transparent;
-  border: none;
-  color: #45a049;
-}
-
-nav {
-  display: flex;
-  justify-content: space-around;
-  padding: 10px;
-  background-color: #fff;
-  border-bottom: 1px solid #ccc;
-}
 
 .nav-item {
   width: 30%;
@@ -109,7 +68,7 @@ main {
 }
 
 footer{
-  background-color: #14424b;
+  background-color: #4CAF50;
 }
 
 footer .container{
@@ -129,6 +88,10 @@ footer .container h3{
 
 footer .container .redes-sociais{
   margin-right: 10px;
+}
+
+footer .container .redes-sociais > img{
+  margin-right: 15px;
 }
 
 footer .container ul > p{
