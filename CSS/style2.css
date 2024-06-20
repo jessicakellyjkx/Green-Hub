@@ -1,7 +1,6 @@
 /* Código CSS já existente */
 
 
-
 header {
   background-color: #fff;
   padding: 20px;
@@ -102,6 +101,7 @@ main {
 
 main h2 {
   color: #4CAF50;
+  font-size: 2em;
   margin-bottom: 20px;
 }
 
@@ -112,8 +112,9 @@ main h2 {
 }
 
 .details img {
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  height: 300px;
+  border-radius: 5%;
   margin-right: 20px;
 }
 
@@ -154,3 +155,6 @@ p {
 .action-item:hover {
   background-color: #45a049;
 }
+
+
+
