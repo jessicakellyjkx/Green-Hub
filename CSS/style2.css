@@ -1,72 +1,6 @@
-/* Código CSS já existente */
-
-
-
-header {
-  background-color: #fff;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid #ccc;
-}
-
-header h1 {
-  font-size: 2em;
-  color: #4CAF50;
-}
-
-.search, .back {
-  display: flex;
-  align-items: center;
-}
-
-.search input {
-  padding: 5px;
-  font-size: 1em;
-}
-
-.search button, .back a {
-  padding: 5px;
-  background-color: #4CAF50;
-  border: none;
-  color: #fff;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 1.5em;
-}
-
-nav {
-  display: flex;
-  justify-content: space-around;
-  padding: 10px;
-  background-color: #fff;
-  border-bottom: 1px solid #ccc;
-}
-
-.nav-item {
-  width: 30%;
-  height: 50px;
-  background-color: #e0e0e0;
-}
 
 main {
   padding: 20px;
-}
-
-.card {
-  display: flex;
-  background-color: #fff;
-  margin-bottom: 20px;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.card img {
-  width: 100px;
-  height: 100px;
-  margin-right: 20px;
 }
 
 .content {
@@ -102,19 +36,21 @@ main {
 
 main h2 {
   color: #4CAF50;
+  font-size: 2em;
   margin-bottom: 20px;
 }
 
 .details {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 90px;
 }
 
 .details img {
-  width: 100px;
-  height: 100px;
-  margin-right: 20px;
+  width: 590px;
+  height: 350px;
+  border-radius: 5%;
+  margin-right: 40px;
 }
 
 .details ul {
@@ -124,7 +60,11 @@ main h2 {
 
 .details ul li {
   margin-bottom: 10px;
-  font-size: 1.2em;
+  font-size: 1.5em;
+}
+
+.details ul li span {
+  color: #4CAF50;
 }
 
 p {
@@ -154,3 +94,6 @@ p {
 .action-item:hover {
   background-color: #45a049;
 }
+
+
+
