@@ -1,17 +1,58 @@
-z* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  color: #333;
+.container{
+  max-width: 1280px;
+  margin: auto;
 }
 
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+header{
+  width: 100%;
+  padding: 15px 23%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: .5s;
+  background-color: #45a049;
+}
 
+header i{
+  font-size: 30px;
+  color: #fff;
+}
+
+header ul{
+  list-style-type: none;
+}
+
+header ul li{
+  display: inline-block;
+  margin: 0 40px;
+}
+
+header ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
 
 .nav-item {
   width: 30%;
@@ -20,39 +61,53 @@ body {
 }
 
 main {
+  margin-top: 90px;
   padding: 20px;
 }
 
 .card {
   display: flex;
-  background-color: #fff;
-  margin-bottom: 20px;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin: 20px auto;
   padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 1000px;
+  box-shadow: 4px 4px 4px 4px rgba(0,0,0,.25);
 }
 
 .card img {
-  width: 300px;
-  height: 300px;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
   margin-right: 20px;
+  object-fit: cover;
 }
 
-.content {
+.card .content {
   flex: 1;
 }
 
-.content h2 {
+.card .content h2 {
+  color: #28a745;
   margin-bottom: 10px;
-  color: #4CAF50;
 }
 
-.content ul {
+.card .content ul {
   list-style-type: disc;
   padding-left: 20px;
+  margin-bottom: 10px;
 }
 
-.read-more {
+.card .content ul li {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card .content .read-more {
   display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
@@ -63,9 +118,10 @@ main {
   transition: background-color 0.3s;
 }
 
-.read-more:hover {
+.card .content .read-more:hover {
   background-color: #45a049;
 }
+
 
 footer{
   background-color: #4CAF50;
@@ -74,6 +130,7 @@ footer{
 footer .container{
   display: flex;
   color: white;
+  padding: 15px;
 }
 
 footer .container ul{
