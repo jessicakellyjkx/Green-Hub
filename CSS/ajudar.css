@@ -29,6 +29,12 @@ main h2 {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
+.task-item:hover {
+  scale: 1.01;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  transition: .5s;
+}
+
 .task-item *:first-child {
   width: 30px;
   height: 30px;
@@ -40,3 +46,13 @@ main h2 {
   font-size: 1.2em;
 }
 
+#voltar img{
+  height: 35px;
+  opacity: 40%;
+}
+
+#voltar img:hover{
+  scale: 1.05;
+  opacity: 60%;
+  transition: .5s;
+}
