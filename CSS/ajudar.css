@@ -1,8 +1,8 @@
 main {
-  padding: 20px;
-}
-
-main {
+  width: 95%;
+  max-width: 1250px;
+  min-height: 65vh;
+  margin: 100px auto;
   padding: 20px;
 }
 
@@ -26,15 +26,33 @@ main h2 {
   text-decoration: none;
   color: #333;
   transition: background-color 0.3s;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
-.task-item img {
+.task-item:hover {
+  scale: 1.01;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  transition: .5s;
+}
+
+.task-item *:first-child {
   width: 30px;
   height: 30px;
   margin-right: 10px;
+  fill: #2b642dab;
 }
 
 .task-item span {
   font-size: 1.2em;
 }
 
+#voltar img{
+  height: 35px;
+  opacity: 40%;
+}
+
+#voltar img:hover{
+  scale: 1.05;
+  opacity: 60%;
+  transition: .5s;
+}
