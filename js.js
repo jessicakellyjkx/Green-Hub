@@ -52,7 +52,7 @@ const initSlider = () => {
         updateScrollThumbPosition();
     });
 
-    // Initialize the slider buttons and scroll thumb position on load
+ 
     handleSlideButtons();
     updateScrollThumbPosition();
 }
