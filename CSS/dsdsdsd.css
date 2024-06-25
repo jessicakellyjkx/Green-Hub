@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+main {
+  padding: 20px;
+}
+
+.intro, .reference, .how-it-works, .why-therapy, .blog {
+  margin: 20px 0;
+}
+
+.intro .container, .reference, .how-it-works, .why-therapy {
+  text-align: center;
+}
+
+.highlight {
+  font-size: 2em;
+  font-weight: bold;
+  background-color: yellow;
+}
+
+.highlight-special {
+  color: purple;
+  text-decoration: underline;
+}
+
+.reference .highlight, .how-it-works .highlight, .why-therapy .highlight {
+  background-color: yellow;
+}
+
+.cta, .how-it-works {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.cta-text, .how-it-works-text {
+  max-width: 50%;
+}
+
+.cta-text p, .how-it-works p, .cta-bottom, .why-therapy p, .quote {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.quote {
+  border: 1px solid orange;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+img {
+  max-width: 45%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.blog {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.blog-post {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.blog-post img {
+  max-width: 100px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.whatsapp-link img {
+  width: 50px;
+  height: 50px;
+}
