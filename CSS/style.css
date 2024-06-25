@@ -24,14 +24,6 @@
   margin: auto;
 }
 
-.banner-h1{
-  font-size: 40px;
-  line-height: 48px;
-  font-weight: 600;
-  margin-bottom: 12px;
-  
-}
-
 header{
   width: 100%;
   padding: 15px 23%;
@@ -79,11 +71,6 @@ nav {
   background-color: #e0e0e0;
 }
 
-#banner-help{
-  background-color: #35bf56;
-  width: 100%;
-  min-height: 240px;
-}
 
 .card {
   display: flex;
