@@ -74,38 +74,6 @@ main p {
   margin-top: -30px;
 }
 
-.details {
-  display: flex;
-  align-items: center;
-  margin-bottom: 90px;
-}
-
-.details img {
-  width: 590px;
-  height: 350px;
-  border-radius: 5%;
-  margin-right: 40px;
-}
-
-.details ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.details ul li {
-  margin-bottom: 10px;
-  font-size: 1.5em;
-}
-
-.details ul li span {
-  color: #4CAF50;
-}
-
-p {
-  margin-bottom: 20px;
-  font-size: 1.2em;
-}
-
 .actions {
   display: flex;
   justify-content: space-around;
@@ -158,6 +126,27 @@ p {
     opacity: 0;
   }
 }
+
+ul {
+  margin: 70px;
+  margin-top: -30px;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li i {
+  color: rgb(91, 4, 161); /* Cor roxa para os ícones */
+  margin-right: 10px; /* Espaço à direita dos ícones */
+}
+
+ul li span {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
 
 
 /*CARROSSEL*/
