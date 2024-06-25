@@ -138,8 +138,10 @@ ul li {
 }
 
 ul li i {
-  color: rgb(91, 4, 161); /* Cor roxa para os ícones */
-  margin-right: 10px; /* Espaço à direita dos ícones */
+  color: rgb(91, 4, 161); 
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 20px;
 }
 
 ul li span {

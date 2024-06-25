@@ -100,8 +100,8 @@ nav {
 }
 
 .card img {
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   border-radius: 10px;
   margin-right: 20px;
   object-fit: cover;
@@ -112,7 +112,7 @@ nav {
 }
 
 .card .content h2 {
-  color: #28a745;
+  color: #206d22;
   margin-bottom: 10px;
 }
 
@@ -127,11 +127,16 @@ nav {
   color: #333;
 }
 
+.card .content ul li span {
+  color: rgb(91, 4, 161);
+  font-weight: 700;
+}
+
 .card .content .read-more {
   display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
-  background-color: #4CAF50;
+  background-color: #206d22;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -141,7 +146,6 @@ nav {
 .card .content .read-more:hover {
   background-color: #45a049;
 }
-
 
 footer{
   background-color: #4CAF50;
