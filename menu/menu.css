@@ -51,6 +51,21 @@ header{
     transition: .5s;
 }
 
+.logo{
+    cursor: pointer;
+    display: -moz-box;
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+}
+
+.text-logo{
+    font-family: Poetsen One;
+    font-size: 25px;
+    margin-left: 15px;
+    color: #008000cc;
+}
+
 header.rolagem{
     width: 100%;
     padding: 15px 23%;
@@ -66,7 +81,7 @@ header.rolagem{
 }
 
 header.rolagem a, header.rolagem i{
-    color: green;
+    color: #008000cc;
 }
 
 header i{
@@ -84,9 +99,13 @@ header ul li{
 }
 
 header ul li a{
+    font-family: Poetsen One;
+    font-size: 25px;
+    margin-left: 15px;
     color: #fff;
     text-decoration: none;
 }
+
 
 
 .banner{

@@ -33,9 +33,10 @@
 }
 .text-logo{
   font-family: Poetsen One;
-  font-size: 20px;
+  font-size: 28px;
   margin-left: 15px;
-  color: green;
+  color: #008000cc;
+  text-decoration: none;
 }
 
 header{
@@ -52,7 +53,9 @@ header{
   z-index: 10;
 }
 
-
+header.rolagem a{
+  color: green;
+}
 
 header.rolagem a, header.rolagem i{
   color: green;
@@ -72,8 +75,11 @@ header ul li{
   margin: 0 40px;
 }
 
-header ul li a{
-  color: green;
+header ul li a {
+  font-size: 25px;
+  margin-left: 15px;
+  font-family: Poetsen One;
+  color: #008000cc;
   text-decoration: none;
 }
 
