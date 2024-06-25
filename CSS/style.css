@@ -24,10 +24,24 @@
   margin: auto;
 }
 
+.logo{
+  cursor: pointer;
+  display: -moz-box;
+  display: flex;
+  -moz-box-align: center;
+  align-items: center;
+}
+.text-logo{
+  font-family: Poetsen One;
+  font-size: 20px;
+  margin-left: 15px;
+  color: green;
+}
+
 header{
   width: 100%;
   padding: 15px 23%;
-  position: sticky;
+  position:sticky;
   top: 0;
   left: 0;
   transition: .5s;
@@ -38,6 +52,11 @@ header{
   z-index: 10;
 }
 
+
+
+header.rolagem a, header.rolagem i{
+  color: green;
+}
 
 header i{
   font-size: 30px;
@@ -56,19 +75,6 @@ header ul li{
 header ul li a{
   color: green;
   text-decoration: none;
-}
-
-nav {
-  display: flex;
-  justify-content: space-around;
-  padding: 10px;
-  border-bottom: 1px solid #ccc;
-}
-
-.nav-item {
-  width: 30%;
-  height: 50px;
-  background-color: #e0e0e0;
 }
 
 
@@ -171,19 +177,4 @@ footer .container li{
 footer .container a{
   color: white;
   text-decoration: none;
-}
-
-.navLogo{
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  height: 70px;
-
-  color: white;
-  text-decoration: none;
-  font-size: 30px;
-}
-
-.navLogo img{
-  height: 100%;
 }
