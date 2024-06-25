@@ -1,16 +1,117 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GreenHub</title>
-    
-
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style2.css">
+    <!--GOOGLE FONTS-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
+    <!--GOOGLE FONTS-->
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--BOOTSTRAP-->
+    <script src="js.js" defer></script>
+       
 </head>
-
 <body>
-    
-</body>
+    <header id="header">
+        <div class="container">
+            <div class="flex">
+                <a href="menu.html"><i class="bi bi-globe-americas"></i></a>
+                <nav>
+                    <ul>
+                        <li><a href="menu.html">HOME</a></li>
+                        <li><a href="#">SOBRE</a></li>
+                        <li><a href="index.html">SEJA VOLUNTÁRIO</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        
+        <h2 class="instituicao">
+            <span class="green-text">Instituição:</span>
+            <img src="img/Captura_de_tela_2024-06-24_190623-removebg-preview.png" class="logo-patinhas">
+            <span class="purple-text">Patinhas da Ajuda</span>
+          </h2>
+          
+        <div class="container">
+            <div class="slider-wrapper">
+                <button id="prev-slide" class="slide-button material-symbols-rounded">chevron_left</button>
+                <div class="image-list">
+                    <img src="img/img-gatinhos.jpeg" alt="img-gatinhos" class="image-item"> 
+                    <img src="img/Designer (19).jpeg" alt="img-gatinhos" class="image-item"> 
+                    <img src="img/Designer (17).jpeg" alt="img-gatinhos" class="image-item"> 
+                    <img src="img/Designer (18).jpeg" alt="img-gatinhos" class="image-item"> 
+                    <img src="img/Designer (22).jpeg" alt="img-gatinhos" class="image-item"> 
+                    <img src="img/Designer (24).jpeg" alt="img-gatinhos" class="image-item"> 
+                    <img src="img/Designer (21).jpeg" alt="img-gatinhos" class="image-item"> 
+                </div>
+                <button id="next-slide" class="slide-button material-symbols-rounded">chevron_right</button>
+            </div>
+            <div class="slider-scrollbar">
+                <div class="scrollbar-track">
+                    <div class="scrollbar-thumb"></div>
+                </div>
+            </div>
+        </div>
 
+        <h2>Sobre a Instituição</h2>
+        <h3>Nossa Missão</h3>
+        <p>Na "Patinhas da Ajuda", nossa missão é resgatar, proteger e encontrar lares amorosos para gatinhos abandonados e maltratados. Acreditamos que todos os gatinhos merecem uma vida digna e cheia de amor, e trabalhamos incansavelmente para proporcionar cuidados médicos, nutricionais e emocionais a cada patinha que passa por nossas portas.</p>
+        <h3>Visão</h3>    
+        <p>Nossa visão é construir uma comunidade onde o bem-estar dos gatos seja uma prioridade. Vemos um futuro onde todos os gatinhos tenham um lar seguro e amoroso, onde sejam valorizados como membros da família. Além de resgatar e cuidar dos gatinhos necessitados, buscamos educar a comunidade sobre a importância da adoção responsável, da esterilização e dos cuidados adequados com os animais de estimação.</p>
+            
+        <div class="actions">
+            <a href="ajudar.html" class="action-item">Ajude o Projeto</a>
+            <div class="action-item">Doe Agora</div>
+            <a href="adotegatinho.html" class="action-item">Adote um Gatinho</a>
+        </div>
+
+        <h2>Informações de Contato e Visita</h2>
+        <ul>
+            <li><i class="bi bi-geo-alt-fill"> </i><span>Endereço:</span> Rua das Patinhas, 123 - Jardim Felino, Cidade dos Gatos - Estado das Patinhas </li>
+            <li><i class="bi bi-telephone-fill"></i><span>Telefone:</span> (11) 773-0229</li>
+            <li><i class="bi bi-envelope-fill"></i><span>Email:</span> contato@patinhasdaajuda.org.br</li>
+            <li><i class="bi bi-clock-fill"></i><span>Horário de Funcionamento:</span> Segunda a Sexta-feira, das 9h às 17h</li>
+        </ul>
+        <h2>Conecte-se Conosco</h2>
+        <p>Siga-nos nas redes sociais para ficar atualizado com as últimas novidades, eventos e histórias de sucesso dos nossos gatinhos resgatados.</p>
+        <ul>
+            <li><i class="bi bi-facebook"></i> Facebook</li>
+            <li><i class="bi bi-instagram"></i> Instagram</li>
+            <li><i class="bi bi-youtube"></i> Youtube</li>
+        </ul>
+    </main>
+    <footer>
+        <div class="container">
+            <h3>GreenHub</h3>
+            <p></p>
+            <div class="redes-sociais">
+                <img src="img/facebook.png" alt="facebook">
+                <img src="img/twitter.png" alt="twitter">
+                <img src="img/instagram.png" alt="instagram">
+                <img src="img/linkedin.png" alt="linkedin">
+            </div>
+            <ul>
+                <h3>Suporte</h3>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Como funciona</a></li>
+                <li><a href="#">Características</a></li>
+                <li><a href="#">Comunicando</a></li>
+            </ul>
+            <ul>
+                <h3>Nosso contato</h3>
+                <li>
+                    <p>+55 9999999999</p>
+                </li>
+                <li>greenhub@gmail.com</li>
+                <li>Brasil</li>
+            </ul>
+        </div>
+    </footer>
+</body>
 </html>
