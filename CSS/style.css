@@ -165,3 +165,18 @@ footer .container a{
   color: white;
   text-decoration: none;
 }
+
+.navLogo{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  height: 70px;
+
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.navLogo img{
+  height: 100%;
+}
