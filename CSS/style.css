@@ -165,3 +165,47 @@ footer .container a{
   color: white;
   text-decoration: none;
 }
+
+textarea {
+  width: 100%; /* Ajusta a largura ao tamanho do container */
+  height: 150px; /* Altura específica */
+  font-size: 14px; /* Tamanho da fonte */
+  padding: 10px; /* Espaçamento interno */
+  box-sizing: border-box; /* Inclui padding e border no tamanho total */
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="url"], input[type="number"], input[type="date"] {
+  width: 100%; /* Largura total */
+  padding: 10px; /* Espaçamento interno */
+  font-size: 16px; /* Tamanho da fonte */
+  box-sizing: border-box; /* Inclui padding e border no tamanho total */
+  margin-bottom: 10px; /* Espaçamento entre campos */
+}
+textarea {
+  width: 100%; /* Largura total */
+  height: 150px; /* Altura específica */
+  padding: 10px; /* Espaçamento interno */
+  font-size: 16px; /* Tamanho da fonte */
+  box-sizing: border-box; /* Inclui padding e border no tamanho total */
+  margin-bottom: 10px; /* Espaçamento entre campos */
+}
+select {
+  width: 100%; /* Largura total */
+  padding: 10px; /* Espaçamento interno */
+  font-size: 16px; /* Tamanho da fonte */
+  box-sizing: border-box; /* Inclui padding e border no tamanho total */
+  margin-bottom: 10px; /* Espaçamento entre campos */
+}
+label {
+  font-weight: bold; /* Negrito para os rótulos */
+  display: block; /* Exibir como bloco */
+  margin-top: 10px; /* Espaçamento superior */
+}
+form {
+  max-width: 600px; /* Largura máxima do formulário */
+  margin: 0 auto; /* Centralizar na tela */
+}
+
+h2 {
+  text-align: center; /* Centraliza o texto horizontalmente */
+}
