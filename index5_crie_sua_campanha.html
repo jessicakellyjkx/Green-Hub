@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="CSS/style_principal.css">
+  <link rel="stylesheet" href="CSS/style_index5.css">
+</head>
+<body>
+    <main>
+        <header id="header">
+        <div class="container">
+            <div class="flex layout_container__1KHHo">
+            <div class="logo">
+                <a href="index.html">
+                <i class="bi bi-globe-americas"></i>
+                <span class="text-logo">Gree Hub</span>
+                </a>
+            </div>
+            
+            <nav>
+                <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="index.html#text-info">SOBRE</a></li>
+                <li><a href="index2_Seja_voluntario.html">SEJA VOLUNTÁRIO</a></li>
+                <li><a href="index5_crie_sua_campanha.html">CRIE SUA CAMPANHA</a></li>
+                </ul>
+            </nav>
+            </div><!-- flex -->
+        </div><!-- container -->
+        </header>
+        
+        
+
+        <form action="/submit_instituicao" method="post" class="form">
+            <div class="form-campanha">
+                <h2>Cadastro de Instituição Beneficente</h2>
+                <label for="nome-instituicao">Nome da Instituição:</label>
+                <input type="text" id="nome-instituicao" name="nome-instituicao" required>
+                
+                <label for="cnpj">CNPJ:</label>
+                <input type="text" id="cnpj" name="cnpj" required>
+                
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="rua" name="rua" placeholder="Rua" required>
+                <input type="text" id="numero" name="numero" placeholder="Número" required>
+                <input type="text" id="complemento" name="complemento" placeholder="Complemento">
+                <input type="text" id="bairro" name="bairro" placeholder="Bairro" required>
+                <input type="text" id="cidade" name="cidade" placeholder="Cidade" required>
+                <input type="text" id="estado" name="estado" placeholder="Estado" required>
+                <input type="text" id="cep" name="cep" placeholder="CEP" required>
+                
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="responsavel">Responsável pela Instituição:</label>
+                <input type="text" id="responsavel" name="responsavel" required>
+                
+                <label for="descricao-instituicao">Descrição da Instituição:</label>
+                <textarea id="descricao-instituicao" name="descricao-instituicao" rows="6" required></textarea>
+                
+                <label for="site">Site/URL:</label>
+                <input type="url" id="site" name="site"><br><br>
+
+                <h2>Informações da Campanha</h2>
+                
+                <label for="nome-campanha">Nome da Campanha:</label>
+                <input type="text" id="nome-campanha" name="nome-campanha" required>
+                
+                <label for="objetivo-campanha">Objetivo da Campanha:</label>
+                <textarea id="objetivo-campanha" name="objetivo-campanha" rows="6" required></textarea>
+                
+                <label for="data-inicio">Data de Início:</label>
+                <input type="date" id="data-inicio" name="data-inicio" required>
+                
+                <label for="data-fim">Data de Fim:</label>
+                <input type="date" id="data-fim" name="data-fim" required>
+                
+                <label for="publico-alvo">Público-Alvo:</label>
+                <input type="text" id="publico-alvo" name="publico-alvo" required>
+                
+                <label for="meta-arrecadacao">Meta de Arrecadação:</label>
+                <input type="number" id="meta-arrecadacao" name="meta-arrecadacao" required>
+                
+                <label for="descricao-campanha">Descrição da Campanha:</label>
+                <textarea id="descricao-campanha" name="descricao-campanha" rows="6" required></textarea>
+                
+                <label for="imagem-campanha">Imagem da Campanha:</label>
+                <input type="file" id="imagem-campanha" name="imagem-campanha">
+                
+                <label for="redes-sociais">Redes Sociais da Campanha:</label>
+                <input type="url" id="redes-sociais" name="redes-sociais" placeholder="URL das Redes Sociais">
+
+                <input type="submit" value="Cadastrar">
+            </div>
+        </form>
+        
+            
+        <footer>
+        <div class="container">
+            <ul>
+            <h3>Green Hub</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. D.</p>
+            <div class="redes-sociais">
+                <img src="img/facebook.png" alt="facebook">
+                <img src="img/twitter.png" alt="twitter">
+                <img src="img/instagram.png" alt="instagram">
+                <img src="img/linkedin.png" alt="linkedin">
+            </div>
+            </ul>
+            <ul>
+            <h3>Suporte</h3>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Como funciona</a></li>
+            <li><a href="#">Características</a></li>
+            <li><a href="#">Comunicando</a></li>
+            </ul>
+            <ul>
+            <h3>Nosso contato</h3>
+            <li><p>+55 9999999999</p></li>
+            <li>sdsdsdsds@gmail.com</li>
+            <li>Brasil</li>
+            </ul>
+        </div>
+        </footer>
+    </main>
+</body>
+</html>
