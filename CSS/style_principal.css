@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -62,13 +64,24 @@ header ul {
 }
 
 header ul li {
-  margin: 0 20px;  /* Ajuste a margem conforme necessário */
+  margin: 0 10px;  /* Ajuste a margem conforme necessário */
 }
 
 header ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  padding: 10px;
   font-size: 23px;
   color: green;
   text-decoration: none;
+  border-radius: 10px;
+  transition: .5s;
+}
+
+header ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 
