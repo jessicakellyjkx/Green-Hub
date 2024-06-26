@@ -5,24 +5,13 @@
     font-family: "Comfortaa", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    
+    text-decoration: none;
 }
 
 
 
 :root {
-    --color-black: #000;
     --color-primary-yellow: #f2af08;
-    --color-secondary-purple: #7402ce;
-    --color-secondary-dark-purple: #560099;
-    --color-secondary-green: #7a9330;
-    --color-secondary-light-gray: #e5e5e5;
-    --color-secondary-regular-gray: #c4c4c4;
-    --color-secondary-gray-71: #b5b5b5;
-    --color-secondary-dark-gray: #707070;
-    --color-secondary-light-cyan: #cbdbdb;
-    --color-light-brown: #eed6be;
-    --color-whatsapp-green: #34af23
 }
     
 
