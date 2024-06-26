@@ -13,7 +13,7 @@ const initSlider = () => {
         const handleMouseMove = (moveEvent) => {
             const deltaX = moveEvent.clientX - startX;
             let newThumbPosition = thumbPosition + deltaX;
-            newThumbPosition = Math.max(0, Math.min(newThumbPosition, slideScrollbar.clientWidth - scrollbarThumb.offsetWidth));
+            newThumbPosition = zMath.max(0, Math.min(newThumbPosition, slideScrollbar.clientWidth - scrollbarThumb.offsetWidth));
             scrollbarThumb.style.left = `${newThumbPosition}px`;
             const scrollFraction = newThumbPosition / (slideScrollbar.clientWidth - scrollbarThumb.offsetWidth);
             imageList.scrollLeft = scrollFraction * maxScrollLeft;

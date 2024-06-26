@@ -32,7 +32,6 @@
   align-items: center;
 }
 .text-logo{
-  font-family: Poetsen One;
   font-size: 28px;
   margin-left: 15px;
   color: #008000cc;
@@ -42,7 +41,7 @@
 header{
   width: 100%;
   padding: 15px 23%;
-  position:sticky;
+  position: sticky;
   top: 0;
   left: 0;
   transition: .5s;
@@ -53,13 +52,6 @@ header{
   z-index: 10;
 }
 
-header.rolagem a{
-  color: green;
-}
-
-header.rolagem a, header.rolagem i{
-  color: green;
-}
 
 header i{
   font-size: 30px;
@@ -75,11 +67,10 @@ header ul li{
   margin: 0 40px;
 }
 
-header ul li a {
-  font-size: 25px;
+header ul li a{
+  font-size: 23px;
   margin-left: 15px;
-  font-family: Poetsen One;
-  color: #008000cc;
+  color: green;
   text-decoration: none;
 }
 

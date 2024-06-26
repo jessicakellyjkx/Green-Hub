@@ -126,24 +126,24 @@ main p {
   }
 }
 
-ul {
+zzul {
   margin: 70px;
   margin-top: -30px;
   padding: 0;
 }
 
-ul li {
+.infor-ong ul li {
   margin-bottom: 10px;
 }
 
-ul li i {
+.infor-ong ul li i {
   color: rgb(91, 4, 161); 
   margin-right: 10px;
   cursor: pointer;
   font-size: 20px;
 }
 
-ul li span {
+.infor-ong ul li span {
   font-weight: bold;
   margin-right: 5px;
 }
