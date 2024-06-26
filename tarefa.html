@@ -40,10 +40,10 @@
     </header>
 
     <main>
-        <a id="voltar" href="ajudar.html"><img src="https://cdn-icons-png.flaticon.com/128/3585/3585896.png" alt=""></a>
         <section class="restructuring">
             <!-- Novo conteúdo inserido -->
             <div class="container-infor">
+                <a id="voltar" href="ajudar.html"><img src="https://cdn-icons-png.flaticon.com/128/3585/3585896.png" alt=""></a>
                 <h1>Criação de logos, artes promocionais entre outros</h1>
                 <p class="subtitle">imagem profissional, I, Capacidade analítica, Habilidades para desenhar, Habilidades escrita, Habilidade em comunicação</p>
                 <div class="project-details">
@@ -70,19 +70,35 @@
                 <div class="freelancers">
                     <h2>Freelancers interessados</h2>
                     <div class="freelancer">
-                        <img src="img/daniel.jpeg" alt="Yellowbird Creative">
-                        <div class="freelancer-info">
-                            <span class="freelancer-name">JOÃO</span>
-                            <span class="freelancer-title">Front-end</span>
-                            <span class="freelancer-location">Juiz de Fora, Minas Gerais</span>
+                        <div class="freelancer">
+                            <img src="img/daniel.jpeg" alt="Yellowbird Creative">
+                            <div class="freelancer-info">
+                                <span class="freelancer-name">JOÃO</span>
+                                <span class="freelancer-title">Front-end</span>
+                                <span class="freelancer-location">Juiz de Fora, Minas Gerais</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="freelancer">
-                        <img src="img/Roberta.jpeg" alt="Yellowbird Creative">
-                        <div class="freelancer-info">
-                            <span class="freelancer-name">Roberta</span>
-                            <span class="freelancer-title">Gráfico e Design</span>
-                            <span class="freelancer-location">Bragança Paulista, São Paulo</span>
+                    <div class="freelancer freelancer-you">
+                        <div class="freelancer">
+                            <img src="img/Roberta.jpeg" alt="Yellowbird Creative">
+                            <div class="freelancer-info">
+                                <span class="freelancer-name">Roberta</span>
+                                <span class="freelancer-title">Gráfico e Design</span>
+                                <span class="freelancer-location">Bragança Paulista, São Paulo</span>
+                            </div>
+                        </div>
+                        <div class="freelancer">
+                            <p>It´s you!!</p>
+                            <button onclick="toggleConfirmation()" class="removeInterested">Remover Interesse</button>
+                        </div>
+                        <div class="confirmation">
+                            <p>Tem certeza que deseja excluir seu interesse?</p>
+                            <hr>
+                            <div class="buttons">
+                                <button onclick="toggleConfirmation()" class="cancel">Cancelar</button>
+                                <button onclick="toggleConfirmation()" class="removeInterested">Confirmar</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -124,5 +140,13 @@
           </ul>
       </div>
   </footer>
+
+  <script>
+    const confirm = document.querySelector('.freelancer .confirmation');
+
+    function toggleConfirmation(){
+        confirm.classList.toggle("visible")
+    }
+  </script>
 </body>
 </html>

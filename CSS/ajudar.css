@@ -2,7 +2,7 @@ main {
   width: 95%;
   max-width: 1250px;
   min-height: 65vh;
-  margin: 100px auto;
+  margin: 20px auto;
   padding: 20px;
 }
 
@@ -143,7 +143,10 @@ button.linkedin {
 .freelancer {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-top: 12px;
+  position: relative;
+  gap: 5px;
 }
 
 .freelancer img {
@@ -166,4 +169,47 @@ button.linkedin {
 .freelancer-location {
   font-size: 14px;
   color: #666;
+}
+
+.freelancer .confirmation{
+  display: none;
+  position: absolute;
+  right: 15px;
+  bottom: 80%;
+
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  width: 250px;
+  padding: 15px;
+}
+
+.freelancer .confirmation::before{
+  content: '';
+  position: absolute;
+  right: 15px;
+  bottom: -7.5px;
+  rotate: 45deg;
+  background-color: #ffffff;
+  width: 15px;
+  height: 15px;
+}
+
+.freelancer .confirmation hr{
+ margin: 15px 0;
+}
+
+.freelancer .visible{
+  display: block;
+}
+
+
+button:hover{
+  opacity: .8;
+  scale: 1.01;
+  transition: .8s;
+}
+
+button.cancel{
+  background-color: gray;
 }
