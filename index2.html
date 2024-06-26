@@ -13,13 +13,21 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!--BOOTSTRAP-->
     <script src="js.js" defer></script>
-       
+    <style>
+        li{
+            list-style-type: none;
+        }
+    </style>
 </head>
 <body>
     <header id="header">
-        <div class="container">
-            <div class="flex">
-                <a href="menu.html"><i class="bi bi-globe-americas"></i></a>
+        <div class="container ">
+            <div class="flex ">
+                <div class="logo">
+                    <a href="index.html"><i class="bi bi-globe-americas"></i></a>
+                    <span class="text-logo">Gree Hub</span>
+                </div>
+                
                 <nav>
                     <ul>
                         <li><a href="index.html">HOME</a></li>
@@ -27,19 +35,19 @@
                         <li><a href="sejavoluntario.html">SEJA VOLUNTÁRIO</a></li>
                     </ul>
                 </nav>
-            </div>
-        </div>
+            </div><!--flex-->
+        </div><!--container-->
     </header>
     <main>
         
-        <h2 class="instituicao">
+        <h2 class="instituicao layout_container__1KHHo">
             <span class="green-text">Instituição:</span>
             <img src="img/Captura_de_tela_2024-06-24_190623-removebg-preview.png" class="logo-patinhas">
             <span class="purple-text">Patinhas da Ajuda</span>
-          </h2>
-          
-        <div class="container">
-            <div class="slider-wrapper">
+        </h2>
+        
+        <div class="container ">
+            <div class="slider-wrapper ">
                 <button id="prev-slide" class="slide-button material-symbols-rounded">chevron_left</button>
                 <div class="image-list">
                     <img src="img/img-gatinhos.jpeg" alt="img-gatinhos" class="image-item"> 
@@ -58,58 +66,66 @@
                 </div>
             </div>
         </div>
+        <section class="infor-ong layout_container__1KHHo">
+            <h2>Sobre a Instituição</h2>
+            <h3>Nossa Missão</h3>
+            <p>Na "Patinhas da Ajuda", nossa missão é resgatar, proteger e encontrar lares amorosos para gatinhos abandonados e maltratados. Acreditamos que todos os gatinhos merecem uma vida digna e cheia de amor, e trabalhamos incansavelmente para proporcionar cuidados médicos, nutricionais e emocionais a cada patinha que passa por nossas portas.</p>
+            <h3>Visão</h3>    
+            <p>Nossa visão é construir uma comunidade onde o bem-estar dos gatos seja uma prioridade. Vemos um futuro onde todos os gatinhos tenham um lar seguro e amoroso, onde sejam valorizados como membros da família. Além de resgatar e cuidar dos gatinhos necessitados, buscamos educar a comunidade sobre a importância da adoção responsável, da esterilização e dos cuidados adequados com os animais de estimação.</p>
+                
+            <div class="actions">
+                <a href="ajudar.html" class="action-item">Ajude o Projeto</a>
+                <div class="action-item">Doe Agora</div>
+                <a href="adotegatinho.html" class="action-item">Adote um Gatinho</a>
+            </div>
 
-        <h2>Sobre a Instituição</h2>
-        <h3>Nossa Missão</h3>
-        <p>Na "Patinhas da Ajuda", nossa missão é resgatar, proteger e encontrar lares amorosos para gatinhos abandonados e maltratados. Acreditamos que todos os gatinhos merecem uma vida digna e cheia de amor, e trabalhamos incansavelmente para proporcionar cuidados médicos, nutricionais e emocionais a cada patinha que passa por nossas portas.</p>
-        <h3>Visão</h3>    
-        <p>Nossa visão é construir uma comunidade onde o bem-estar dos gatos seja uma prioridade. Vemos um futuro onde todos os gatinhos tenham um lar seguro e amoroso, onde sejam valorizados como membros da família. Além de resgatar e cuidar dos gatinhos necessitados, buscamos educar a comunidade sobre a importância da adoção responsável, da esterilização e dos cuidados adequados com os animais de estimação.</p>
-            
-        <div class="actions">
-            <a href="ajudar.html" class="action-item">Ajude o Projeto</a>
-            <div class="action-item">Doe Agora</div>
-            <a href="adotegatinho.html" class="action-item">Adote um Gatinho</a>
-        </div>
-
-        <h2>Informações de Contato e Visita</h2>
-        <ul>
-            <li><i class="bi bi-geo-alt-fill"> </i><span>Endereço:</span> Rua das Patinhas, 123 - Jardim Felino, Cidade dos Gatos - Estado das Patinhas </li>
-            <li><i class="bi bi-telephone-fill"></i><span>Telefone:</span> (11) 773-0229</li>
-            <li><i class="bi bi-envelope-fill"></i><span>Email:</span> contato@patinhasdaajuda.org.br</li>
-            <li><i class="bi bi-clock-fill"></i><span>Horário de Funcionamento:</span> Segunda a Sexta-feira, das 9h às 17h</li>
-        </ul>
-        <h2>Conecte-se Conosco</h2>
-        <p>Siga-nos nas redes sociais para ficar atualizado com as últimas novidades, eventos e histórias de sucesso dos nossos gatinhos resgatados.</p>
-        <ul>
-            <li><i class="bi bi-facebook"></i> Facebook</li>
-            <li><i class="bi bi-instagram"></i> Instagram</li>
-            <li><i class="bi bi-youtube"></i> Youtube</li>
-        </ul>
+            <h2>Informações de Contato e Visita</h2>
+            <ul>
+                <li><i class="bi bi-geo-alt-fill"> </i><span>Endereço:</span> Rua das Patinhas, 123 - Jardim Felino, Cidade dos Gatos - Estado das Patinhas </li>
+                <li><i class="bi bi-telephone-fill"></i><span>Telefone:</span> (11) 773-0229</li>
+                <li><i class="bi bi-envelope-fill"></i><span>Email:</span> contato@patinhasdaajuda.org.br</li>
+                <li><i class="bi bi-clock-fill"></i><span>Horário de Funcionamento:</span> Segunda a Sexta-feira, das 9h às 17h</li>
+            </ul>
+            <h2>Conecte-se Conosco</h2>
+            <p>Siga-nos nas redes sociais para ficar atualizado com as últimas novidades, eventos e histórias de sucesso dos nossos gatinhos resgatados.</p>
+            <ul>
+                <li><i class="bi bi-facebook"></i> Facebook</li>
+                <li><i class="bi bi-instagram"></i> Instagram</li>
+                <li><i class="bi bi-youtube"></i> Youtube</li>
+            </ul>
+        </section>
+        
     </main>
     <footer>
         <div class="container">
-            <h3>GreenHub</h3>
-            <p></p>
-            <div class="redes-sociais">
-                <img src="img/facebook.png" alt="facebook">
-                <img src="img/twitter.png" alt="twitter">
-                <img src="img/instagram.png" alt="instagram">
-                <img src="img/linkedin.png" alt="linkedin">
-            </div>
             <ul>
-                <h3>Suporte</h3>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Como funciona</a></li>
-                <li><a href="#">Características</a></li>
-                <li><a href="#">Comunicando</a></li>
+                <h3>Green Hub</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. D.</p>
+                <div class="redes-sociais">
+                    <img src="img/facebook.png" alt="facebook">
+                    <img src="img/twitter.png" alt="twitter">
+                    <img src="img/instagram.png" alt="instagram">
+                    <img src="img/linkedin.png" alt="linkedin">
+                </div>
+            </ul> 
+            <ul>
+                <h3>suporte</h3>
+                <li> <a href="#">FAQ</a></li>
+                <li> <a href="#">Como funciona</a></li>
+                <li> <a href="#">Caracteristicas</a></li>
+                <li> <a href="#">Comunicando</a></li>
             </ul>
             <ul>
-                <h3>Nosso contato</h3>
+                <h3>Nosso contatato</h3>
                 <li>
                     <p>+55 9999999999</p>
                 </li>
-                <li>greenhub@gmail.com</li>
-                <li>Brasil</li>
+                <li>
+                    sdsdsdsds@gmail.com
+                </li>
+                <li>
+                    Brasil
+                </li>
             </ul>
         </div>
     </footer>

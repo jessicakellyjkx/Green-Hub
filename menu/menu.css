@@ -60,7 +60,6 @@ header{
 }
 
 .text-logo{
-    font-family: Poetsen One;
     font-size: 25px;
     margin-left: 15px;
     color: #008000cc;
@@ -99,8 +98,7 @@ header ul li{
 }
 
 header ul li a{
-    font-family: Poetsen One;
-    font-size: 25px;
+    font-size: 23px;
     margin-left: 15px;
     color: #fff;
     text-decoration: none;
