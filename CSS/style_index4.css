@@ -11,6 +11,7 @@ main h2 {
   margin-bottom: 20px;
 }
 
+/*Terefas*/
 .tasks {
   display: flex;
   flex-direction: column;
@@ -45,6 +46,9 @@ main h2 {
 .task-item span {
   font-size: 1.2em;
 }
+
+
+/*Sobre Tarefa*/
 
 #voltar img{
   height: 35px;
@@ -201,7 +205,7 @@ button.linkedin {
 }
 
 .freelancer .confirmation hr{
- margin: 15px 0;
+  margin: 15px 0;
 }
 
 .freelancer .visible{

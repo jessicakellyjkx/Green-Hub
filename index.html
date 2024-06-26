@@ -9,89 +9,104 @@
     <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <title>Home</title>
-    <link rel="stylesheet" href="menu/menu.css">
+    <link rel="stylesheet" href="CSS/style_index.css">
+    <link rel="stylesheet" href="CSS/style_principal.css">
+    <style>
+        .banner {
+            height: 100vh;
+            background-image: url(img/banner.jpg);
+            background-position: 100% 0;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
 </head>
 <body>
-    <header id="header">
-        <div class="container ">
-            <div class="flex ">
-                <div class="logo">
-                    <a href="index.html"><i class="bi bi-globe-americas"></i> <span class="text-logo">Green Hub</span></a>
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">SOBRE</a></li>
-                        <li><a href="sejavoluntario.html">SEJA VOLUNTÁRIO</a></li>
-                        <li><a href="campanha.html">CRIE SUA CAMPANHA</a></li>
-                    </ul>
-                </nav>
-            </div><!--flex-->
-        </div><!--container-->
-    </header>
-
-    <section class="banner">
-        <h1>FAÇA PARTE E <span>SEJA UM VOLUNTÁRIO</span></h1>
-    </section>
-
-    <section id="text-info">
-        <div class="text-info-desc layout_container__1KHHo">
-            <h3 class="text-h3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum minima quaerat corrupti fugiat tempora rerum quasi quisquam eius voluptatibus reprehenderit nam vel ullam officia harum quibusdam dolor repellat, adipisci aliquid?</h3>
-            <div class="text-info-desc-two">
-                <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, nostrum odit vero laudantium cumque omnis libero quam iure nihil! Est, perferendis ut! Quis voluptates fugiat perferendis dolores, sunt quo necessitatibus!</p>
-                <div class="text-desc-right">
-                    <p class="text-right1">2 milhões</p>
-                    <p class="text-right2">de pessoas por ano</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="text-info2">
-        <div class="imagem"></div>
-        <div class="text-info-desc2 layout_container__1KHHo">
-            <div class="text-desc-p">
-                <h3 class="text-h3-2">Lorem ipsum dolors <span class="text-h3-3">lorem</span> loreeeeeem</h3>
-                <p class="text-p-1">
-                    Loremxxxx ipsum dolor sit amet consectetur adipisicing elit. Consequuntur porro doloribus dolor. Voluptatem dicta consequuntur aspernatur, vitae magnam id ratione nesciunt a eum facere et, commodi quis quos quibusdam veniam!
-                </p>
-                <p class="text-p-2">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat vitae animi harum, dolor expedita esse mollitia molestiae eligendi delectus laudantium perspiciatis, eos ratione corporis nisi dignissimos. Nulla quibusdam ipsam architecto.
-                </p>
-            </div>
-            <div class="text-img">
-                <p class="text-img-p">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quos tenetur accusamus nisi, aliquid deleniti nobis, veniam ducimus corrupti quae ab neque debitis rerum repellendus vel, at ratione magnam dolorum!
-                </p>
-                <button type="button" class="butao-clique" href="sejavoluntario.html">Clique aqui!</button>
-            </div>
-        </div>
-    </section>
-
-    <section id="como-funciona">
-        <div class="HowItWorksSection_howItWorksContainer__Gs4YU layout_container__1KHHo">
-            <div class="HowItWorksSection_howItWorksTitleContainer__37JuF">
-                <h3 class="HowItWorksSection_howItWorksTitle__QolFV"><span class="HowItWorksSection_highlightedText__3DvE1">lorem </span><br> <span class="HowItWorksSection_highlightedText__3DvE1">lorem</span></h3>
-            </div>
-            <p class="HowItWorksSection_howItWorksInfoParagraph__3WGB1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, illo vero reprehenderit exercitationem aliquam debitis aspernatur provident, explicabo ipsum dolore repudiandae ex. Quidem accusantium provident eligendi, voluptate repellendus quisquam asperiores..</p>
-            <p class="HowItWorksSection_howItWorksInfoParagraph__3WGB1">loreeeeeeem <span class="HowItWorksSection_textColorHighlight__1iFMe">lorem</span> loreemm <span class="HowItWorksSection_textColorHighlight__1iFMe">loremmm</span> loremmm <span class="HowItWorksSection_textColorHighlight__1iFMe">lorem?</span></p>
-            <p class="HowItWorksSection_howItWorksInfoParagraph__3WGB1 HowItWorksSection_howItWorksInfoLastParagraph__2TGkA">loremmmmmmmmmmmm: <span class="HowItWorksSection_textFontHighlight__2SfHF">você!</span></p>
-            <div class="HowItWorksSection_imageContainer__1yai_">
-                <div style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0">
-                    <div style="box-sizing:border-box;display:block;max-width:100%">
-                        <img style="max-width:100%;display:block;margin:0;border:none;padding:0" alt="" aria-hidden="true" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAyNCIgaGVpZ2h0PSI0MTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+">
+    <main>
+        <header id="header">
+            <div class="container">
+                <div class="flex layout_container__1KHHo">
+                    <div class="logo">
+                        <a href="index.html"><i class="bi bi-globe-americas"></i> <span class="text-logo">Gree Hub</span></a>
                     </div>
-                    <img alt="pessoas felizes tirando uma foto" src="menu/imagens/happy-friends-taking-a-picture.webp" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:100%;height:auto;min-width:100%;max-width:100%;min-height:100%;max-height:100%">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="index.html#text-info">SOBRE</a></li>
+                            <li><a href="index2_Seja_voluntario.html">SEJA VOLUNTÁRIO</a></li>
+                            <li><a href="index5_crie_sua_campanha.html">CRIE SUA CAMPANHA</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-            <div class="HowItWorksSection_ctaContainer__1w_dQ">
-                <p class="HowItWorksSection_howItWorksCTAParagraph__1xqPc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci soluta quae eius consequatur ducimus qui quibusdam voluptates corporis, corrupti tempore officia atque nesciunt accusantium eaque explicabo unde deleniti animi at.!</p>
-                <button type="button" class="HowItWorksSection_ctaButton__2uEjp" href="index.html">Começar agora!</button>
-            </div>
-        </div>
-    </section>
+        </header>
 
-    <footer >
-        <div class="container ">
+        <section class="banner">
+            <h1>FAÇA PARTE E <span>SEJA UM VOLUNTÁRIO</span></h1>
+        </section>
+
+        <section id="text-info">
+            <div class="text-info-desc layout_container__1KHHo">
+                <h3 class="text-h3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum minima quaerat corrupti fugiat tempora rerum quasi quisquam eius voluptatibus reprehenderit nam vel ullam officia harum quibusdam dolor repellat, adipisci aliquid?</h3>
+                <div class="text-info-desc-two">
+                    <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, nostrum odit vero laudantium cumque omnis libero quam iure nihil! Est, perferendis ut! Quis voluptates fugiat perferendis dolores, sunt quo necessitatibus!</p>
+                    <div class="text-desc-right">
+                        <p class="text-right1">2 milhões</p>
+                        <p class="text-right2">de pessoas por ano</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="text-info2">
+            <div class="imagem"></div>
+            <div class="text-info-desc2 layout_container__1KHHo">
+                <div class="text-desc-p">
+                    <h3 class="text-h3-2">Lorem ipsum dolors <span class="text-h3-3">lorem</span> loreeeeeem</h3>
+                    <p class="text-p-1">
+                        Loremxxxx ipsum dolor sit amet consectetur adipisicing elit. Consequuntur porro doloribus dolor. Voluptatem dicta consequuntur aspernatur, vitae magnam id ratione nesciunt a eum facere et, commodi quis quos quibusdam veniam!
+                    </p>
+                    <p class="text-p-2">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat vitae animi harum, dolor expedita esse mollitia molestiae eligendi delectus laudantium perspiciatis, eos ratione corporis nisi dignissimos. Nulla quibusdam ipsam architecto.
+                    </p>
+                </div>
+                <div class="text-img">
+                    <p class="text-img-p">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quos tenetur accusamus nisi, aliquid deleniti nobis, veniam ducimus corrupti quae ab neque debitis rerum repellendus vel, at ratione magnam dolorum!
+                    </p>
+                    <button type="button" class="butao-clique" href="sejavoluntario.html">Clique aqui!</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="como-funciona">
+            <div class="HowItWorksSection_howItWorksContainer__Gs4YU layout_container__1KHHo">
+                <div class="HowItWorksSection_howItWorksTitleContainer__37JuF">
+                    <h3 class="HowItWorksSection_howItWorksTitle__QolFV"><span class="HowItWorksSection_highlightedText__3DvE1">lorem </span><br> <span class="HowItWorksSection_highlightedText__3DvE1">lorem</span></h3>
+                </div>
+                <p class="HowItWorksSection_howItWorksInfoParagraph__3WGB1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, illo vero reprehenderit exercitationem aliquam debitis aspernatur provident, explicabo ipsum dolore repudiandae ex. Quidem accusantium provident eligendi, voluptate repellendus quisquam asperiores..</p>
+                <p class="HowItWorksSection_howItWorksInfoParagraph__3WGB1">loreeeeeeem <span class="HowItWorksSection_textColorHighlight__1iFMe">lorem</span> loreemm <span class="HowItWorksSection_textColorHighlight__1iFMe">loremmm</span> loremmm <span class="HowItWorksSection_textColorHighlight__1iFMe">lorem?</span></p>
+                <p class="HowItWorksSection_howItWorksInfoParagraph__3WGB1 HowItWorksSection_howItWorksInfoLastParagraph__2TGkA">loremmmmmmmmmmmm: <span class="HowItWorksSection_textFontHighlight__2SfHF">você!</span></p>
+                <div class="HowItWorksSection_imageContainer__1yai_">
+                    <div style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0">
+                        <div style="box-sizing:border-box;display:block;max-width:100%">
+                            <img style="max-width:100%;display:block;margin:0;border:none;padding:0" alt="" aria-hidden="true" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAyNCIgaGVpZ2h0PSI0MTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+">
+                        </div>
+                        <img alt="pessoas felizes tirando uma foto" src="menu/imagens/happy-friends-taking-a-picture.webp" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:100%;height:auto;min-width:100%;max-width:100%;min-height:100%;max-height:100%">
+                    </div>
+                </div>
+                <div class="HowItWorksSection_ctaContainer__1w_dQ">
+                    <p class="HowItWorksSection_howItWorksCTAParagraph__1xqPc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci soluta quae eius consequatur ducimus qui quibusdam voluptates corporis, corrupti tempore officia atque nesciunt accusantium eaque explicabo unde deleniti animi at.!</p>
+                    <button type="button" class="HowItWorksSection_ctaButton__2uEjp" href="index.html">Começar agora!</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
             <ul>
                 <h3>Green Hub</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. D.</p>
@@ -120,7 +135,6 @@
         </div>
     </footer>
 
-    <script src="menu/menu.js"></script>
+    <script src="javascript/js_index.js"></script>
 </body>
-
 </html>
