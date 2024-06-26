@@ -5,7 +5,9 @@
   font-family: "Comfortaa", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  
 }
+
 
 .container{
   max-width: 1280px;
@@ -17,20 +19,43 @@
   align-items: center;
   justify-content: space-between;
 }
+.layout_container__1KHHo{
+  max-width: 1022px;
+  margin: auto;
+}
+
+.logo{
+  cursor: pointer;
+  display: -moz-box;
+  display: flex;
+  -moz-box-align: center;
+  align-items: center;
+}
+.text-logo{
+  font-size: 28px;
+  margin-left: 15px;
+  color: #008000cc;
+  text-decoration: none;
+}
 
 header{
   width: 100%;
   padding: 15px 23%;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   transition: .5s;
-  background-color: #45a049;
+  height: 80px;
+  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+  background-color: #fff;
+  z-index: 10;
 }
+
 
 header i{
   font-size: 30px;
-  color: #fff;
+  color: green;
 }
 
 header ul{
@@ -43,27 +68,12 @@ header ul li{
 }
 
 header ul li a{
-  color: #fff;
+  font-size: 23px;
+  margin-left: 15px;
+  color: green;
   text-decoration: none;
 }
 
-nav {
-  display: flex;
-  justify-content: space-around;
-  padding: 10px;
-  border-bottom: 1px solid #ccc;
-}
-
-.nav-item {
-  width: 30%;
-  height: 50px;
-  background-color: #e0e0e0;
-}
-
-main {
-  margin-top: 90px;
-  padding: 20px;
-}
 
 .card {
   display: flex;
@@ -80,8 +90,8 @@ main {
 }
 
 .card img {
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   border-radius: 10px;
   margin-right: 20px;
   object-fit: cover;
@@ -92,7 +102,7 @@ main {
 }
 
 .card .content h2 {
-  color: #28a745;
+  color: #206d22;
   margin-bottom: 10px;
 }
 
@@ -107,11 +117,16 @@ main {
   color: #333;
 }
 
+.card .content ul li span {
+  color: rgb(91, 4, 161);
+  font-weight: 700;
+}
+
 .card .content .read-more {
   display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
-  background-color: #4CAF50;
+  background-color: #206d22;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -121,7 +136,6 @@ main {
 .card .content .read-more:hover {
   background-color: #45a049;
 }
-
 
 footer{
   background-color: #4CAF50;
