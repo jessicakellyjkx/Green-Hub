@@ -89,24 +89,16 @@ header ul li a{
 }
 
 
-.banner{
-    height: 100vh;
-    background-image: url(imagens/banner.jpg);
+.banner {
+    height: 110vh;
+    width: 100%;
+    background-image: url(imagens/bannerrr.png);
     background-position: 100% 0;
     background-repeat: no-repeat;
-    background-size: cover;
-
+    background-size: 100% auto; 
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.banner h1{
-    font-size: 4em;
-}
-
-.banner h1 span{
-    color: #FFAE81;
 }
 
 section #text-info{
@@ -149,7 +141,7 @@ section #text-info{
 }
 
 .text-left{
-    font-size: 32px;
+    font-size: 18px;
     line-height: 36px;
     width: 450px;
 }
