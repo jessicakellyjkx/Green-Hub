@@ -46,3 +46,25 @@ h2 {
   text-align: center; 
   color: green;
 }
+
+button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: .5s;
+}
+
+button.disabled {
+  background-color: rgb(230, 230, 230);
+  color: black;
+  cursor: not-allowed;
+}
+
+button:not(.disabled):hover {
+  opacity: .8;
+  scale: 1.02;
+}
