@@ -222,3 +222,7 @@ button:hover{
 button.cancel{
   background-color: gray;
 }
+
+.feedback-message{
+  padding: 1000px;
+}
