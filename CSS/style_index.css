@@ -18,6 +18,10 @@ section #text-info{
     display: block;
 }
 
+.text-left p {
+    font-size: 18px;
+}
+
 .text-info-desc{
     display: -moz-box;
     display: flex;
@@ -36,7 +40,8 @@ section #text-info{
 }
 
 .text-h3-3{
-    background-color: #f2af08;
+    font-size: 18px;
+    background-color: #04770a;
     padding: 0 2px;
 }
 
@@ -111,7 +116,7 @@ section #text-info2{
 }
 
 .text-h3-2{
-    font-size: 30px;
+    font-size: 20px;
     line-height: 42px;
     font-weight: 600;
     display: inline;
@@ -132,7 +137,7 @@ section #text-info2{
 }
 
 .text-img{
-    max-width: 500px;
+    width: 100%;
     min-height: 150px;
     display: -moz-box;
     display: flex;
@@ -157,7 +162,7 @@ section #text-info2{
     font-size: 24px;
     line-height: 28px;
     font-weight: 600;
-    color: #fff;
+    color: #000000;
     margin-left: 30px;
     margin-bottom: 20px;
 }
@@ -170,10 +175,10 @@ section #text-info2{
     font-family: inherit;
     font-size: 18px;
     line-height: 24px;
-    background-color: #c4c4c4;
+    background-color: #04770a;
     border-radius: 8px;
     -webkit-box-shadow: 0 4px 4px rgba(0,0,0,.25);
-    box-shadow: 0 4px 4px rgba(0,0,0,.25);
+    box-shadow: 0 4px 4px rgb(255, 255, 255);
     cursor: pointer;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
@@ -203,7 +208,7 @@ section #text-info2{
 }
 
 .HowItWorksSection_highlightedText__3DvE1 {
-    background-color: var(--color-primary-yellow);
+    background-color: green;
     padding: 4px 8px
 }
 
@@ -262,7 +267,7 @@ section #text-info2{
     height: 40px;
     margin-top: 20px;
     border: none;
-    background-color:  rgb(159, 159, 159);
+    background-color:  #04770a;
     border-radius: 8px;
     font-family: inherit;
     font-size: 18px;
@@ -275,7 +280,7 @@ section #text-info2{
 }
 
 .HowItWorksSection_ctaButton__2uEjp:active,.HowItWorksSection_ctaButton__2uEjp:hover {
-    background-color: rgb(159, 159, 159)
+    background-color: rgb(255, 254, 254)
 }
 
 
