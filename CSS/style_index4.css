@@ -122,7 +122,7 @@ main h2 {
 }
 
 button {
-  background-color: green;
+  background-color: #E88300;
   color: white;
   border: none;
   padding: 10px 15px;
@@ -159,8 +159,8 @@ button.linkedin {
 }
 
 .freelancer img {
-  width: 50px;
-  height: 50px;
+  width: 150px;
+  height: 150px;
   margin-right: 10px;
 }
 
