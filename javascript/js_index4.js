@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
             feedbackMessage = document.createElement('div');
             feedbackMessage.id = 'feedback-message';
             feedbackMessage.textContent = 'Você está inscrito neste projeto!';
-            feedbackMessage.style.position = 'absolute';
+            feedbackMessage.style.position = 'fixed';
             feedbackMessage.style.top = '0';
             feedbackMessage.style.left = '50%';
             feedbackMessage.style.transform = 'translateX(-50%)';

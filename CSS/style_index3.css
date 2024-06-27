@@ -1,20 +1,4 @@
-main {
-  padding: 20px;
-}
 
-.content {
-  flex: 1;
-}
-
-.content h2 {
-  margin-bottom: 10px;
-  color: #4CAF50;
-}
-
-.content ul {
-  list-style-type: disc;
-  padding-left: 20px;
-}
 
 .read-more {
   display: inline-block;
@@ -35,14 +19,14 @@ main {
   width: 70px;
   height: auto;
   margin-top: -15px;
-  margin-right: -10px; /* Espaço à direita da imagem */
-  vertical-align: middle; /* Alinha verticalmente a imagem */
+  margin-right: -10px;
+  vertical-align: middle; 
 }
 
 .instituicao {
-  font-size: 2em; /* Tamanho da fonte */
-  margin-bottom: 20px; /* Margem inferior */
-  overflow: hidden; /* Limpa o float para evitar problemas de layout */
+  font-size: 2em;
+  margin-bottom: 20px; 
+  overflow: hidden;
 }
 
 .green-text {
@@ -152,18 +136,7 @@ zzul {
 
 /*CARROSSEL*/
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-body {
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  background: #F1F4FD;
-}
 
 .slider-wrapper .image-list {
   display: grid;
@@ -253,14 +226,19 @@ body {
 }
 
 .slider-wrapper .slide-button#prev-slide {
+  background-color: green;
   left: 50px;
   display: none;
   top: 430px;
 }
 
 .slider-wrapper .slide-button#next-slide {
+  background-color: green;
   right: 50px;
   display: none;
   top: 430px;
 }
 
+.infor-contato{
+  margin: 50px;
+}

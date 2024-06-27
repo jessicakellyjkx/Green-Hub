@@ -60,11 +60,11 @@ header i {
 
 header ul {
   list-style-type: none;
-  display: flex;  /* Adiciona esta linha */
+  display: flex;  
 }
 
 header ul li {
-  margin: 0 10px;  /* Ajuste a margem conforme necessário */
+  margin: 0 10px;  
 }
 
 header ul li a {
